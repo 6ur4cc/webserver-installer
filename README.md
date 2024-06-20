@@ -20,12 +20,12 @@ This script allows you to set up a LAMP (Linux, Apache, MySQL/MariaDB, PHP) or L
 
 2. **Make the script executable:**
     ```bash
-    chmod +x webserver_installer.sh
+    chmod +x webserver-installer.sh
     ```
 
 3. **Run the script as root:**
     ```bash
-    sudo ./webserver_installer.sh
+    sudo ./webserver-installer.sh
     ```
 
 4. **Follow the prompts:**
@@ -38,7 +38,7 @@ This script allows you to set up a LAMP (Linux, Apache, MySQL/MariaDB, PHP) or L
 ## Example
 
 ```bash
-sudo ./webserver_installer.sh
+sudo ./webserver-installer.sh
 
 
 ## Turkish README
