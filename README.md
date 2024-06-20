@@ -15,7 +15,7 @@ This script allows you to set up a LAMP (Linux, Apache, MySQL/MariaDB, PHP) or L
 
 1. **Download the script:**
     ```bash
-    wget (https://raw.githubusercontent.com/6ur4cc/webserver-installer/main/webserver-installer.sh)
+    wget https://raw.githubusercontent.com/6ur4cc/webserver-installer/main/webserver-installer.sh
     ```
 
 2. **Make the script executable:**
@@ -39,3 +39,49 @@ This script allows you to set up a LAMP (Linux, Apache, MySQL/MariaDB, PHP) or L
 
 ```bash
 sudo ./webserver_installer.sh
+
+
+## Turkish README
+
+```markdown
+# WebServer Kurulum Scripti
+
+Bu script, Ubuntu sunucunuzda LAMP (Linux, Apache, MySQL/MariaDB, PHP) veya LEMP (Linux, Nginx, MySQL/MariaDB, PHP) yığınını kurmanızı sağlar. Script ayrıca Let's Encrypt SSL sertifikaları kurulumunu ve sanal ana bilgisayarların oluşturulmasını içerir. Ayrıca, bilinen tüm güvenlik açıklarının kapatıldığından emin olur.
+
+## Özellikler
+
+- Apache veya Nginx web sunucusunu kurma
+- Kurulacak PHP sürümünü seçme
+- MySQL veya MariaDB veritabanını kurma
+- Bilinen güvenlik açıklarını kapatarak güvenli kurulum
+- Let's Encrypt SSL sertifikalarını kurma
+- Alan adlarınız için sanal ana bilgisayarlar oluşturma
+
+## Kullanım
+
+1. **Scripti sunucya çek:**
+    ```bash
+    wget https://raw.githubusercontent.com/6ur4cc/webserver-installer/main/webserver-installer.sh
+    ```
+
+2. **Scripte gereken dosya izinlerini ver:**
+    ```bash
+    chmod +x webserver-installer.sh
+    ```
+
+3. **Scripti kök kullanıcı olarak çalıştır:**
+    ```bash
+    sudo ./webserver-installer.sh
+    ```
+
+4. **Yönergeleri takip et:**
+    - Web sunucusunu seç (Apache/Nginx)
+    - PHP sürümünü gir (örneğin, 7.4, 8.0, 8.1)
+    - Veritabanını seç (MySQL/MariaDB)
+    - Alan adı gir (örneğin, 6ur4cc.ge)
+    - Web kökünü gir (örneğin, /var/www/html/6ur4cc)
+
+## Örnek
+
+```bash
+sudo ./webserver-installer.sh
