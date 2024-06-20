@@ -35,12 +35,6 @@ This script allows you to set up a LAMP (Linux, Apache, MySQL/MariaDB, PHP) or L
     - Enter the domain name (e.g., 6ur4cc.ge)
     - Enter the web root (e.g., /var/www/html/6ur4cc)
 
-## Example
-
-```bash
-sudo ./webserver-installer.sh
-
-
 ## Turkish README
 
 ```markdown
