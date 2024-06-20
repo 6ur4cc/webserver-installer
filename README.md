@@ -15,7 +15,7 @@ This script allows you to set up a LAMP (Linux, Apache, MySQL/MariaDB, PHP) or L
 
 1. **Download the script:**
     ```bash
-    wget [https://raw.githubusercontent.com/6ur4cc/webserver-installer/main/webserver-installer.sh](https://raw.githubusercontent.com/6ur4cc/webserver-installer/main/webserver-installer.sh)
+    wget (https://raw.githubusercontent.com/6ur4cc/webserver-installer/main/webserver-installer.sh)
     ```
 
 2. **Make the script executable:**
